@@ -19,7 +19,7 @@ def criar_pessoa(request):
             return redirect('listar_pessoas')
     else:
         form = PessoaForm()
-    return render(request, 'meuapp/form.html', {'form ' : form})
+    return render(request, 'meuapp/form.html', {'form' : form})
 
 
 
