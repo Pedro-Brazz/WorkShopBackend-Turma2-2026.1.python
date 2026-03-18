@@ -3,5 +3,5 @@ from.views import listar_pessoas, criar_pessoa
 
 urlpatterns = [
     path('listar/', listar_pessoas, name = 'listar_pessoas'),
-    path('criar', criar_pessoas, name = 'criar_pessoa'),
+    path('criar', criar_pessoa, name = 'criar_pessoa'),
 ]
